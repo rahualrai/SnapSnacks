@@ -63,13 +63,13 @@ def generate_output(name, nutrient_data):
 
 
 def process_image(image_url):
-    print("1")
+    print("finding food description")
     food_description = get_text_from_image(image_url)
-    print("2")
+    print("retriving food name")
     food_name = get_food_name(food_description)
-    print("3")
+    print("calling USDA api for nutrients values")
     nutrient_data = retrieve_nutrient_data(food_name)
-    print("4")
+    print("working out output text")
     if nutrient_data:
         output_text = generate_output(food_name, nutrient_data)
     else:
