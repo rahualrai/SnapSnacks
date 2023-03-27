@@ -21,7 +21,7 @@ This repository contains the source code for a project that uses Twilio and Open
 5. Install the requirements with `pip install -r requirements.txt`
 6. Run the app with `python app.py`
 7. In another terminal, run `ngrok http 8080`
-8. In Twilio console, add the URL, "https://5bad813c2718.ngrok.io/summary" as a Webhook when “A Message Comes In”.
+8. In Twilio console, add the URL, such as "https://5bad813c2718.ngrok.io/summary" as a Webhook when “A Message Comes In”.
 
 ## Usage
 
