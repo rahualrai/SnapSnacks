@@ -1,0 +1,9 @@
+Flask==2.1.0
+google-cloud-vision==2.5.0
+numpy==1.21.4
+opencv-python==4.5.4.58
+openai==0.10.3
+Pillow==8.4.0
+python-dotenv==0.19.1
+requests==2.27.1
+twilio==6.64.0
